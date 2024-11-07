@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-25T16:40:47 IST" name="Default suite" finished-at="2024-10-25T16:41:47 IST" duration-ms="60656">
+    <groups>
+    </groups>
+    <test started-at="2024-10-25T16:40:47 IST" name="Default test" finished-at="2024-10-25T16:41:47 IST" duration-ms="60656">
+      <class name="SmartBuyCR.Tests.SampleTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:SmartBuyCR.Tests.SampleTest@3fb1549b]" started-at="2024-10-25T16:40:47 IST" name="setUp" finished-at="2024-10-25T16:40:50 IST" duration-ms="2775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void SmartBuyCR.Tests.SampleTest.Infinia_FlightRoundTripBooking()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Infinia_FlightRoundTripBooking()[pri:0, instance:SmartBuyCR.Tests.SampleTest@3fb1549b]" started-at="2024-10-25T16:40:50 IST" name="Infinia_FlightRoundTripBooking" finished-at="2024-10-25T16:41:47 IST" duration-ms="57483" status="FAIL">
+          <exception class="com.microsoft.playwright.TimeoutError">
+            <message>
+              <![CDATA[Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("#canvas_flights_0_O_0")
+  locator resolved to <canvas width="350" height="1650" _ngcontent-dxc-c266=""…></canvas>
+attempting click action
+  waiting for element to be visible, enabled and stable
+    element is not visible - waiting...
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("#canvas_flights_0_O_0")
+  locator resolved to <canvas width="350" height="1650" _ngcontent-dxc-c266=""…></canvas>
+attempting click action
+  waiting for element to be visible, enabled and stable
+    element is not visible - waiting...
+============================================================
+    at ProgressController.run (/tmp/playwright-java-3629311386252072475/package/lib/server/progress.js:88:26)
+    at Frame.click (/tmp/playwright-java-3629311386252072475/package/lib/server/frames.js:994:23)
+    at FrameDispatcher.click (/tmp/playwright-java-3629311386252072475/package/lib/server/dispatchers/frameDispatcher.js:154:30)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-3629311386252072475/package/lib/server/dispatchers/dispatcher.js:313:46)
+}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("#canvas_flights_0_O_0")
+  locator resolved to <canvas width="350" height="1650" _ngcontent-dxc-c266=""…></canvas>
+attempting click action
+  waiting for element to be visible, enabled and stable
+    element is not visible - waiting...
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("#canvas_flights_0_O_0")
+  locator resolved to <canvas width="350" height="1650" _ngcontent-dxc-c266=""…></canvas>
+attempting click action
+  waiting for element to be visible, enabled and stable
+    element is not visible - waiting...
+============================================================
+    at ProgressController.run (/tmp/playwright-java-3629311386252072475/package/lib/server/progress.js:88:26)
+    at Frame.click (/tmp/playwright-java-3629311386252072475/package/lib/server/frames.js:994:23)
+    at FrameDispatcher.click (/tmp/playwright-java-3629311386252072475/package/lib/server/dispatchers/frameDispatcher.js:154:30)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-3629311386252072475/package/lib/server/dispatchers/dispatcher.js:313:46)
+}
+at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:111)
+at com.microsoft.playwright.impl.Connection.sendMessage(Connection.java:126)
+at com.microsoft.playwright.impl.ChannelOwner.sendMessage(ChannelOwner.java:102)
+at com.microsoft.playwright.impl.FrameImpl.clickImpl(FrameImpl.java:252)
+at com.microsoft.playwright.impl.FrameImpl.lambda$click$8(FrameImpl.java:243)
+at com.microsoft.playwright.impl.LoggingSupport.lambda$withLogging$0(LoggingSupport.java:36)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:47)
+at com.microsoft.playwright.impl.ChannelOwner.withLogging(ChannelOwner.java:87)
+at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
+at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
+at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:140)
+at SmartBuyCR.Pages.InfiniaPage.RoundTripFlightBooking(InfiniaPage.java:198)
+at SmartBuyCR.Tests.SampleTest.Infinia_FlightRoundTripBooking(SampleTest.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: com.microsoft.playwright.TimeoutError: Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("#canvas_flights_0_O_0")
+  locator resolved to <canvas width="350" height="1650" _ngcontent-dxc-c266=""…></canvas>
+attempting click action
+  waiting for element to be visible, enabled and stable
+    element is not visible - waiting...
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for locator("#canvas_flights_0_O_0")
+  locator resolved to <canvas width="350" height="1650" _ngcontent-dxc-c266=""…></canvas>
+attempting click action
+  waiting for element to be visible, enabled and stable
+    element is not visible - waiting...
+============================================================
+    at ProgressController.run (/tmp/playwright-java-3629311386252072475/package/lib/server/progress.js:88:26)
+    at Frame.click (/tmp/playwright-java-3629311386252072475/package/lib/server/frames.js:994:23)
+    at FrameDispatcher.click (/tmp/playwright-java-3629311386252072475/package/lib/server/dispatchers/frameDispatcher.js:154:30)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-3629311386252072475/package/lib/server/dispatchers/dispatcher.js:313:46)
+}
+at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:224)
+at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:206)
+at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:109)
+... 38 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.microsoft.playwright.TimeoutError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Infinia_FlightRoundTripBooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SmartBuyCR.Tests.SampleTest@3fb1549b]" started-at="2024-10-25T16:41:47 IST" name="tearDown" finished-at="2024-10-25T16:41:47 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SmartBuyCR.Tests.SampleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

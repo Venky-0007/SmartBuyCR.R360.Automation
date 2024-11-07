@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5.159" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/venkaiahk/Documents/SmartBuyCR.R360.Automation/target/test-classes:/home/venkaiahk/Documents/SmartBuyCR.R360.Automation/target/classes:/home/venkaiahk/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/home/venkaiahk/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/venkaiahk/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1.jar:/home/venkaiahk/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/home/venkaiahk/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/home/venkaiahk/.m2/repository/com/microsoft/playwright/playwright/1.38.0/playwright-1.38.0.jar:/home/venkaiahk/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/venkaiahk/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/venkaiahk/.m2/repository/com/microsoft/playwright/driver/1.38.0/driver-1.38.0.jar:/home/venkaiahk/.m2/repository/com/microsoft/playwright/driver-bundle/1.38.0/driver-bundle-1.38.0.jar:/home/venkaiahk/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/home/venkaiahk/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/venkaiahk/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/home/venkaiahk/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/home/venkaiahk/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/home/venkaiahk/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/venkaiahk/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/venkaiahk/Documents/SmartBuyCR.R360.Automation/target/surefire/surefirebooter-20241010163218171_3.jar /home/venkaiahk/Documents/SmartBuyCR.R360.Automation/target/surefire 2024-10-10T16-32-17_936-jvmRun1 surefire-20241010163218171_1tmp surefire_0-20241010163218171_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/venkaiahk/Documents/SmartBuyCR.R360.Automation/target/test-classes:/home/venkaiahk/Documents/SmartBuyCR.R360.Automation/target/classes:/home/venkaiahk/.m2/repository/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar:/home/venkaiahk/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/venkaiahk/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.17.1/log4j-slf4j-impl-2.17.1.jar:/home/venkaiahk/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.1/log4j-api-2.17.1.jar:/home/venkaiahk/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.1/log4j-core-2.17.1.jar:/home/venkaiahk/.m2/repository/com/microsoft/playwright/playwright/1.38.0/playwright-1.38.0.jar:/home/venkaiahk/.m2/repository/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar:/home/venkaiahk/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/venkaiahk/.m2/repository/com/microsoft/playwright/driver/1.38.0/driver-1.38.0.jar:/home/venkaiahk/.m2/repository/com/microsoft/playwright/driver-bundle/1.38.0/driver-bundle-1.38.0.jar:/home/venkaiahk/.m2/repository/org/testng/testng/7.7.1/testng-7.7.1.jar:/home/venkaiahk/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/venkaiahk/.m2/repository/org/webjars/jquery/3.6.1/jquery-3.6.1.jar:/home/venkaiahk/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/home/venkaiahk/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/home/venkaiahk/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/home/venkaiahk/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/venkaiahk"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/venkaiahk/Documents/SmartBuyCR.R360.Automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/venkaiahk/Documents/SmartBuyCR.R360.Automation/target/surefire/surefirebooter-20241010163218171_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+7-Ubuntu-1ubuntu220.04"/>
+    <property name="user.name" value="venkaiahk"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.0-122-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/venkaiahk/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-17"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="/home/venkaiahk/Documents/SmartBuyCR.R360.Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="17.0.12+7-Ubuntu-1ubuntu220.04"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Google" classname="SmartBuyCR.Tests.SampleTest" time="0.007"/>
+  <testcase name="TestLaunchUrl" classname="SmartBuyCR.Tests.SampleTest" time="0.001"/>
+</testsuite>

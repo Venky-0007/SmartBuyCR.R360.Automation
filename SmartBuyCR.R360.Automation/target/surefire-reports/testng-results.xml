@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-10T16:32:18 IST" name="Surefire suite" finished-at="2024-10-10T16:32:23 IST" duration-ms="4634">
+    <groups>
+    </groups>
+    <test started-at="2024-10-10T16:32:18 IST" name="Surefire test" finished-at="2024-10-10T16:32:23 IST" duration-ms="4634">
+      <class name="SmartBuyCR.Tests.SampleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SmartBuyCR.Tests.SampleTest@638ef7ed]" started-at="2024-10-10T16:32:18 IST" name="setUp" finished-at="2024-10-10T16:32:21 IST" duration-ms="2678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Google()[pri:0, instance:SmartBuyCR.Tests.SampleTest@638ef7ed]" started-at="2024-10-10T16:32:21 IST" name="Google" finished-at="2024-10-10T16:32:21 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Google -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SmartBuyCR.Tests.SampleTest@638ef7ed]" started-at="2024-10-10T16:32:21 IST" name="tearDown" finished-at="2024-10-10T16:32:21 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SmartBuyCR.Tests.SampleTest@638ef7ed]" started-at="2024-10-10T16:32:21 IST" name="setUp" finished-at="2024-10-10T16:32:23 IST" duration-ms="1493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestLaunchUrl()[pri:0, instance:SmartBuyCR.Tests.SampleTest@638ef7ed]" started-at="2024-10-10T16:32:23 IST" name="TestLaunchUrl" finished-at="2024-10-10T16:32:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLaunchUrl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SmartBuyCR.Tests.SampleTest@638ef7ed]" started-at="2024-10-10T16:32:23 IST" name="tearDown" finished-at="2024-10-10T16:32:23 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SmartBuyCR.Tests.SampleTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

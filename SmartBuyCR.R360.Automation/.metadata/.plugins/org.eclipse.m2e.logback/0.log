@@ -1,0 +1,342 @@
+2024-10-07 10:13:59,889 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-07 10:14:41,483 [Worker-10: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.w2a:CucumberBDDWithPageObjects:0.0.1-SNAPSHOT @ /home/venkaiahk/Music/Playwright Project/SmartbuyPlaywright 3/CucumberBDD/pom.xml.
+2024-10-07 10:14:41,913 [Worker-10: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2024-10-07 10:14:41,927 [Worker-10: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2024-10-07 10:14:42,392 [Worker-10: Importing Maven projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.perfkit.sjk.parsers:sjk-jfr5:jar:0.5 is invalid, transitive dependencies (if any) will not be available: 2 problems were encountered while building the effective model for org.perfkit.sjk.parsers:sjk-jfr5:0.5
+[ERROR] 'dependencies.dependency.systemPath' for com.jrockit.mc:com.jrockit.mc.common:jar must specify an absolute path but is ${jmc5.path}/plugins/com.jrockit.mc.common_${jmc5.version}.jar @ 
+[ERROR] 'dependencies.dependency.systemPath' for com.jrockit.mc:com.jrockit.mc.flightrecorder:jar must specify an absolute path but is ${jmc5.path}/plugins/com.jrockit.mc.flightrecorder_${jmc5.version}.jar @ 
+
+2024-10-07 10:14:42,396 [Worker-10: Importing Maven projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.perfkit.sjk.parsers:sjk-jfr6:jar:0.7 is invalid, transitive dependencies (if any) will not be available: 2 problems were encountered while building the effective model for org.perfkit.sjk.parsers:sjk-jfr6:0.7
+[ERROR] 'dependencies.dependency.systemPath' for com.oracle.jmc:com.oracle.jmc.common:jar must specify an absolute path but is ${jmc6.path}/plugins/com.oracle.jmc.common_${jmc6.version}.jar @ 
+[ERROR] 'dependencies.dependency.systemPath' for com.oracle.jmc:com.oracle.jmc.flightrecorder:jar must specify an absolute path but is ${jmc6.path}/plugins/com.oracle.jmc.flightrecorder_${jmc6.version}.jar @ 
+
+2024-10-07 10:14:42,406 [Worker-10: Importing Maven projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.perfkit.sjk.parsers:sjk-nps:jar:0.5 is invalid, transitive dependencies (if any) will not be available: 3 problems were encountered while building the effective model for org.perfkit.sjk.parsers:sjk-nps:0.5
+[ERROR] 'dependencies.dependency.systemPath' for jdk.org.netbeans:profiler:jar must specify an absolute path but is ${visualvm.path}/profiler/modules/org-netbeans-modules-profiler.jar @ 
+[ERROR] 'dependencies.dependency.systemPath' for jdk.org.netbeans:lib-profiler:jar must specify an absolute path but is ${visualvm.path}/profiler/modules/org-netbeans-lib-profiler.jar @ 
+[ERROR] 'dependencies.dependency.systemPath' for jdk.org.netbeans:lib-profiler-common:jar must specify an absolute path but is ${visualvm.path}/profiler/modules/org-netbeans-lib-profiler-common.jar @ 
+
+2024-10-07 10:14:42,736 [Worker-10: Importing Maven projects] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine source level, using default 1.5
+2024-10-07 10:14:42,736 [Worker-10: Importing Maven projects] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine target level, using default 1.5
+2024-10-07 10:14:42,813 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberBDDWithPageObjects/src/main/java
+2024-10-07 10:14:42,815 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberBDDWithPageObjects/src/main/resources
+2024-10-07 10:14:42,816 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberBDDWithPageObjects/src/test/java
+2024-10-07 10:14:42,817 [Worker-10: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberBDDWithPageObjects/src/test/resources
+2024-10-07 10:14:42,948 [Worker-10: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2024-10-07 10:15:06,659 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-07 10:15:06,663 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-07 10:15:06,674 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-07 10:15:06,675 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2024-10-07 10:16:00,722 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-07 10:16:56,338 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.perfkit.sjk.parsers:sjk-jfr5:jar:0.5 is invalid, transitive dependencies (if any) will not be available: 2 problems were encountered while building the effective model for org.perfkit.sjk.parsers:sjk-jfr5:0.5
+[ERROR] 'dependencies.dependency.systemPath' for com.jrockit.mc:com.jrockit.mc.common:jar must specify an absolute path but is ${jmc5.path}/plugins/com.jrockit.mc.common_${jmc5.version}.jar @ 
+[ERROR] 'dependencies.dependency.systemPath' for com.jrockit.mc:com.jrockit.mc.flightrecorder:jar must specify an absolute path but is ${jmc5.path}/plugins/com.jrockit.mc.flightrecorder_${jmc5.version}.jar @ 
+
+2024-10-07 10:16:56,342 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.perfkit.sjk.parsers:sjk-jfr6:jar:0.7 is invalid, transitive dependencies (if any) will not be available: 2 problems were encountered while building the effective model for org.perfkit.sjk.parsers:sjk-jfr6:0.7
+[ERROR] 'dependencies.dependency.systemPath' for com.oracle.jmc:com.oracle.jmc.common:jar must specify an absolute path but is ${jmc6.path}/plugins/com.oracle.jmc.common_${jmc6.version}.jar @ 
+[ERROR] 'dependencies.dependency.systemPath' for com.oracle.jmc:com.oracle.jmc.flightrecorder:jar must specify an absolute path but is ${jmc6.path}/plugins/com.oracle.jmc.flightrecorder_${jmc6.version}.jar @ 
+
+2024-10-07 10:16:56,351 [Worker-21: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.perfkit.sjk.parsers:sjk-nps:jar:0.5 is invalid, transitive dependencies (if any) will not be available: 3 problems were encountered while building the effective model for org.perfkit.sjk.parsers:sjk-nps:0.5
+[ERROR] 'dependencies.dependency.systemPath' for jdk.org.netbeans:profiler:jar must specify an absolute path but is ${visualvm.path}/profiler/modules/org-netbeans-modules-profiler.jar @ 
+[ERROR] 'dependencies.dependency.systemPath' for jdk.org.netbeans:lib-profiler:jar must specify an absolute path but is ${visualvm.path}/profiler/modules/org-netbeans-lib-profiler.jar @ 
+[ERROR] 'dependencies.dependency.systemPath' for jdk.org.netbeans:lib-profiler-common:jar must specify an absolute path but is ${visualvm.path}/profiler/modules/org-netbeans-lib-profiler-common.jar @ 
+
+2024-10-07 10:16:56,601 [Worker-21: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-07 10:16:56,604 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-07 10:16:56,617 [Worker-21: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-07 10:16:56,618 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2024-10-07 10:17:36,857 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-07 10:17:36,858 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-07 10:17:36,863 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-07 10:17:36,864 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2024-10-07 16:38:22,030 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-07 16:38:52,479 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.perfkit.sjk.parsers:sjk-jfr5:jar:0.5 is invalid, transitive dependencies (if any) will not be available: 2 problems were encountered while building the effective model for org.perfkit.sjk.parsers:sjk-jfr5:0.5
+[ERROR] 'dependencies.dependency.systemPath' for com.jrockit.mc:com.jrockit.mc.common:jar must specify an absolute path but is ${jmc5.path}/plugins/com.jrockit.mc.common_${jmc5.version}.jar @ 
+[ERROR] 'dependencies.dependency.systemPath' for com.jrockit.mc:com.jrockit.mc.flightrecorder:jar must specify an absolute path but is ${jmc5.path}/plugins/com.jrockit.mc.flightrecorder_${jmc5.version}.jar @ 
+
+2024-10-07 16:38:52,486 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.perfkit.sjk.parsers:sjk-jfr6:jar:0.7 is invalid, transitive dependencies (if any) will not be available: 2 problems were encountered while building the effective model for org.perfkit.sjk.parsers:sjk-jfr6:0.7
+[ERROR] 'dependencies.dependency.systemPath' for com.oracle.jmc:com.oracle.jmc.common:jar must specify an absolute path but is ${jmc6.path}/plugins/com.oracle.jmc.common_${jmc6.version}.jar @ 
+[ERROR] 'dependencies.dependency.systemPath' for com.oracle.jmc:com.oracle.jmc.flightrecorder:jar must specify an absolute path but is ${jmc6.path}/plugins/com.oracle.jmc.flightrecorder_${jmc6.version}.jar @ 
+
+2024-10-07 16:38:52,497 [Worker-8: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.perfkit.sjk.parsers:sjk-nps:jar:0.5 is invalid, transitive dependencies (if any) will not be available: 3 problems were encountered while building the effective model for org.perfkit.sjk.parsers:sjk-nps:0.5
+[ERROR] 'dependencies.dependency.systemPath' for jdk.org.netbeans:profiler:jar must specify an absolute path but is ${visualvm.path}/profiler/modules/org-netbeans-modules-profiler.jar @ 
+[ERROR] 'dependencies.dependency.systemPath' for jdk.org.netbeans:lib-profiler:jar must specify an absolute path but is ${visualvm.path}/profiler/modules/org-netbeans-lib-profiler.jar @ 
+[ERROR] 'dependencies.dependency.systemPath' for jdk.org.netbeans:lib-profiler-common:jar must specify an absolute path but is ${visualvm.path}/profiler/modules/org-netbeans-lib-profiler-common.jar @ 
+
+2024-10-07 16:38:52,743 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-07 16:38:52,747 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-07 16:38:52,763 [Worker-8: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-07 16:38:52,764 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2024-10-07 16:38:54,429 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-07 16:38:54,431 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-07 16:38:54,435 [Worker-9: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-07 16:38:54,436 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2024-10-07 16:39:50,024 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-09 14:18:13,613 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-09 14:18:53,023 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SmartBuyCR.R360.Automation:SmartBuyCR.Playwright.Automation:0.0.1-SNAPSHOT @ /home/venkaiahk/Desktop/SmartBuyCR.R360.Automation/pom.xml.
+2024-10-09 14:18:53,470 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartBuyCR.Playwright.Automation/src/main/java
+2024-10-09 14:18:53,471 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartBuyCR.Playwright.Automation/src/main/resources
+2024-10-09 14:18:53,472 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartBuyCR.Playwright.Automation/src/test/java
+2024-10-09 14:18:53,472 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartBuyCR.Playwright.Automation/src/test/resources
+2024-10-09 14:18:53,549 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2024-10-09 14:18:53,954 [Worker-3: Importing Maven projects] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating SampleTest from maven configuration
+2024-10-09 14:18:54,896 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 14:18:54,901 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-09 14:18:54,916 [Worker-22: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 14:18:54,917 [Worker-22: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 14:33:37,814 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-09 14:34:14,870 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 14:34:14,875 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-09 14:34:14,888 [Worker-0: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 14:34:14,888 [Worker-0: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 14:34:42,172 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 14:34:42,177 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 14:34:42,183 [Worker-19: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 14:34:42,184 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 14:54:56,865 [Worker-72: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 14:54:56,866 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 14:54:56,871 [Worker-72: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 14:54:56,872 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 15:34:49,096 [Worker-88: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar
+2024-10-09 15:34:49,137 [Worker-88: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.jar
+2024-10-09 15:34:49,188 [Worker-88: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.pom
+2024-10-09 15:34:49,192 [Worker-88: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.8.1/maven-compiler-plugin-3.8.1.pom
+2024-10-09 15:34:49,220 [Worker-88: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom
+2024-10-09 15:34:49,224 [Worker-88: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/33/maven-plugins-33.pom
+2024-10-09 15:34:49,488 [Worker-88: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SmartBuyCR.R360.Automation:SmartBuyCR.Playwright.Automation:0.0.1-SNAPSHOT @ /home/venkaiahk/Desktop/SmartBuyCR.R360.Automation/pom.xml.
+2024-10-09 15:34:49,664 [Worker-88: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 15:34:49,666 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 15:34:49,671 [Worker-88: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 15:34:49,671 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 15:34:49,905 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-10-09 15:34:50,149 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SmartBuyCR.R360.Automation:SmartBuyCR.Playwright.Automation:0.0.1-SNAPSHOT @ /home/venkaiahk/Desktop/SmartBuyCR.R360.Automation/pom.xml.
+2024-10-09 15:34:50,310 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartBuyCR.Playwright.Automation/src/main/java
+2024-10-09 15:34:50,313 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartBuyCR.Playwright.Automation/src/main/resources
+2024-10-09 15:34:50,314 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartBuyCR.Playwright.Automation/src/test/java
+2024-10-09 15:34:50,314 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartBuyCR.Playwright.Automation/src/test/resources
+2024-10-09 15:34:50,345 [Worker-87: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: SampleTest
+2024-10-09 15:34:50,345 [Worker-87: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating SampleTest from maven configuration
+2024-10-09 15:34:50,712 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-10-09 15:34:51,152 [Worker-87: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 15:34:51,154 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-09 15:34:51,162 [Worker-87: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 15:34:51,163 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 15:37:08,853 [Worker-89: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/3.0.0/exec-maven-plugin-3.0.0.pom
+2024-10-09 15:37:08,859 [Worker-89: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/3.0.0/exec-maven-plugin-3.0.0.pom
+2024-10-09 15:37:08,878 [Worker-89: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/50/mojo-parent-50.pom
+2024-10-09 15:37:08,898 [Worker-89: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/mojo-parent/50/mojo-parent-50.pom
+2024-10-09 15:37:08,921 [Worker-89: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/3.0.0/exec-maven-plugin-3.0.0.jar
+2024-10-09 15:37:08,936 [Worker-89: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/codehaus/mojo/exec-maven-plugin/3.0.0/exec-maven-plugin-3.0.0.jar
+2024-10-09 15:37:09,055 [Worker-89: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SmartBuyCR.R360.Automation:SmartBuyCR.Playwright.Automation:0.0.1-SNAPSHOT @ /home/venkaiahk/Desktop/SmartBuyCR.R360.Automation/pom.xml.
+2024-10-09 15:37:09,137 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 15:37:09,139 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 15:37:09,142 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 15:37:09,143 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 15:40:32,720 [Worker-89: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SmartBuyCR.R360.Automation:SmartBuyCR.Playwright.Automation:0.0.1-SNAPSHOT @ /home/venkaiahk/Desktop/SmartBuyCR.R360.Automation/pom.xml.
+2024-10-09 15:40:32,841 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 15:40:32,844 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 15:40:32,849 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 15:40:32,849 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 16:28:59,538 [Worker-92: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 16:28:59,539 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-09 16:28:59,545 [Worker-92: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 16:28:59,545 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 16:36:52,461 [Worker-94: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 16:36:52,463 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 16:36:52,466 [Worker-94: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 16:36:52,467 [Worker-94: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 16:36:54,816 [Worker-91: Launching SampleTest] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 16:36:54,817 [Worker-91: Launching SampleTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 16:36:54,821 [Worker-91: Launching SampleTest] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 16:36:54,823 [Worker-91: Launching SampleTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 17:06:13,876 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:06:13,878 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-09 17:06:13,880 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:06:13,881 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 17:09:50,203 [Worker-98: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:09:50,203 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 17:09:50,205 [Worker-98: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:09:50,205 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 17:11:14,986 [Worker-99: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:11:14,987 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 17:11:14,989 [Worker-99: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:11:14,990 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 17:11:48,008 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:11:48,009 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-09 17:11:48,011 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:11:48,012 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 17:18:08,081 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:18:08,082 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 17:18:08,084 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:18:08,085 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 17:18:10,178 [Worker-99: Launching SampleTest] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:18:10,179 [Worker-99: Launching SampleTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 17:18:10,182 [Worker-99: Launching SampleTest] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:18:10,183 [Worker-99: Launching SampleTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 17:19:10,629 [Worker-102: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:19:10,630 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 17:19:10,633 [Worker-102: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:19:10,634 [Worker-102: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 17:19:59,980 [Worker-99: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:19:59,981 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 17:19:59,985 [Worker-99: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:19:59,986 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 17:20:24,264 [Worker-100: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:20:24,265 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 17:20:24,267 [Worker-100: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:20:24,268 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 17:20:56,271 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:20:56,272 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 17:20:56,275 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:20:56,275 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 17:23:43,113 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:23:43,114 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-09 17:23:43,117 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:23:43,118 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 17:24:43,885 [Worker-101: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:24:43,887 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 17:24:43,891 [Worker-101: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:24:43,892 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 17:25:27,153 [Worker-99: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:25:27,154 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 17:25:27,157 [Worker-99: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:25:27,157 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 17:25:49,945 [Worker-99: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:25:49,946 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 17:25:49,949 [Worker-99: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 17:25:49,950 [Worker-99: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 18:10:32,019 [Worker-100: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 18:10:32,020 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 18:10:32,022 [Worker-100: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 18:10:32,023 [Worker-100: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-09 18:13:16,503 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 18:13:16,504 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-09 18:13:16,507 [Worker-89: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-09 18:13:16,509 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-10 11:56:08,692 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-10 11:56:11,044 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SmartBuyCR.R360.Automation:SmartBuyCR.Playwright.Automation:0.0.1-SNAPSHOT @ /home/venkaiahk/Desktop/SmartBuyCR.R360.Automation/pom.xml.
+2024-10-10 11:56:11,565 [Worker-4: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 11:56:11,572 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-10 11:56:11,587 [Worker-4: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 11:56:11,588 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-10 12:00:17,406 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.w2a:CucumberBDDWithPageObjects:0.0.1-SNAPSHOT @ /home/venkaiahk/Music/SmartbuyPlaywright 3/CucumberBDD/pom.xml.
+2024-10-10 12:00:17,744 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2024-10-10 12:00:17,757 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2024-10-10 12:00:18,137 [Worker-8: Importing Maven projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.perfkit.sjk.parsers:sjk-jfr5:jar:0.5 is invalid, transitive dependencies (if any) will not be available: 2 problems were encountered while building the effective model for org.perfkit.sjk.parsers:sjk-jfr5:0.5
+[ERROR] 'dependencies.dependency.systemPath' for com.jrockit.mc:com.jrockit.mc.common:jar must specify an absolute path but is ${jmc5.path}/plugins/com.jrockit.mc.common_${jmc5.version}.jar @ 
+[ERROR] 'dependencies.dependency.systemPath' for com.jrockit.mc:com.jrockit.mc.flightrecorder:jar must specify an absolute path but is ${jmc5.path}/plugins/com.jrockit.mc.flightrecorder_${jmc5.version}.jar @ 
+
+2024-10-10 12:00:18,143 [Worker-8: Importing Maven projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.perfkit.sjk.parsers:sjk-jfr6:jar:0.7 is invalid, transitive dependencies (if any) will not be available: 2 problems were encountered while building the effective model for org.perfkit.sjk.parsers:sjk-jfr6:0.7
+[ERROR] 'dependencies.dependency.systemPath' for com.oracle.jmc:com.oracle.jmc.common:jar must specify an absolute path but is ${jmc6.path}/plugins/com.oracle.jmc.common_${jmc6.version}.jar @ 
+[ERROR] 'dependencies.dependency.systemPath' for com.oracle.jmc:com.oracle.jmc.flightrecorder:jar must specify an absolute path but is ${jmc6.path}/plugins/com.oracle.jmc.flightrecorder_${jmc6.version}.jar @ 
+
+2024-10-10 12:00:18,155 [Worker-8: Importing Maven projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.perfkit.sjk.parsers:sjk-nps:jar:0.5 is invalid, transitive dependencies (if any) will not be available: 3 problems were encountered while building the effective model for org.perfkit.sjk.parsers:sjk-nps:0.5
+[ERROR] 'dependencies.dependency.systemPath' for jdk.org.netbeans:profiler:jar must specify an absolute path but is ${visualvm.path}/profiler/modules/org-netbeans-modules-profiler.jar @ 
+[ERROR] 'dependencies.dependency.systemPath' for jdk.org.netbeans:lib-profiler:jar must specify an absolute path but is ${visualvm.path}/profiler/modules/org-netbeans-lib-profiler.jar @ 
+[ERROR] 'dependencies.dependency.systemPath' for jdk.org.netbeans:lib-profiler-common:jar must specify an absolute path but is ${visualvm.path}/profiler/modules/org-netbeans-lib-profiler-common.jar @ 
+
+2024-10-10 12:00:18,357 [Worker-8: Importing Maven projects] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine source level, using default 1.5
+2024-10-10 12:00:18,358 [Worker-8: Importing Maven projects] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine target level, using default 1.5
+2024-10-10 12:00:18,362 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberBDDWithPageObjects/src/main/java
+2024-10-10 12:00:18,365 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberBDDWithPageObjects/src/main/resources
+2024-10-10 12:00:18,365 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CucumberBDDWithPageObjects/src/test/java
+2024-10-10 12:00:18,366 [Worker-8: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CucumberBDDWithPageObjects/src/test/resources
+2024-10-10 12:00:18,460 [Worker-8: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2024-10-10 12:00:51,160 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:00:51,161 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-10 12:00:51,180 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:00:51,181 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2024-10-10 12:02:34,884 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:02:34,885 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-10 12:02:34,890 [Worker-29: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:02:34,891 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
+2024-10-10 12:10:31,098 [Worker-27: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SmartBuyCR.R360.Automation:SmartBuyCR.Playwright.Automation:0.0.1-SNAPSHOT @ /home/venkaiahk/Desktop/SmartBuyCR.R360.Automation/pom.xml.
+2024-10-10 12:10:31,222 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:10:31,224 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-10 12:10:31,228 [Worker-27: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:10:31,229 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-10 12:10:31,302 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-10-10 12:10:31,541 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SmartBuyCR.R360.Automation:SmartBuyCR.Playwright.Automation:0.0.1-SNAPSHOT @ /home/venkaiahk/Desktop/SmartBuyCR.R360.Automation/pom.xml.
+2024-10-10 12:10:31,867 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartBuyCR.Playwright.Automation/src/main/java
+2024-10-10 12:10:31,867 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartBuyCR.Playwright.Automation/src/main/resources
+2024-10-10 12:10:31,867 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartBuyCR.Playwright.Automation/src/test/java
+2024-10-10 12:10:31,868 [Worker-33: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartBuyCR.Playwright.Automation/src/test/resources
+2024-10-10 12:10:31,889 [Worker-33: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: SampleTest
+2024-10-10 12:10:31,889 [Worker-33: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating SampleTest from maven configuration
+2024-10-10 12:10:32,165 [Worker-33: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-10-10 12:10:32,489 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:10:32,490 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-10 12:10:32,495 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:10:32,496 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-10 12:14:37,527 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SmartBuyCR.R360.Automation:SmartBuyCR.Playwright.Automation:0.0.1-SNAPSHOT @ /home/venkaiahk/Desktop/SmartBuyCR.R360.Automation/pom.xml.
+2024-10-10 12:14:37,584 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:14:37,585 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-10 12:14:37,588 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:14:37,589 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-10 12:14:37,611 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-10-10 12:14:37,784 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SmartBuyCR.R360.Automation:SmartBuyCR.Playwright.Automation:0.0.1-SNAPSHOT @ /home/venkaiahk/Desktop/SmartBuyCR.R360.Automation/pom.xml.
+2024-10-10 12:14:38,120 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartBuyCR.Playwright.Automation/src/main/java
+2024-10-10 12:14:38,121 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartBuyCR.Playwright.Automation/src/main/resources
+2024-10-10 12:14:38,121 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartBuyCR.Playwright.Automation/src/test/java
+2024-10-10 12:14:38,121 [Worker-36: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartBuyCR.Playwright.Automation/src/test/resources
+2024-10-10 12:14:38,198 [Worker-36: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: SampleTest
+2024-10-10 12:14:38,199 [Worker-36: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating SampleTest from maven configuration
+2024-10-10 12:14:38,414 [Worker-36: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2024-10-10 12:14:38,928 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:14:38,929 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-10 12:14:38,933 [Worker-32: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:14:38,934 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-10 12:19:09,301 [Worker-35: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SmartBuyCR.R360.Automation:SmartBuyCR.Playwright.Automation:0.0.1-SNAPSHOT @ /home/venkaiahk/Desktop/SmartBuyCR.R360.Automation/pom.xml.
+2024-10-10 12:19:09,442 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.28/lombok-1.18.28.pom
+2024-10-10 12:19:09,445 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.28/lombok-1.18.28.pom
+2024-10-10 12:19:09,471 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar
+2024-10-10 12:19:09,585 [Worker-35: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.28/lombok-1.18.28.jar
+2024-10-10 12:19:09,620 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:19:09,621 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-10 12:19:09,623 [Worker-35: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:19:09,624 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-10 12:19:10,714 [Worker-35: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.28/lombok-1.18.28-sources.jar
+2024-10-10 12:19:10,806 [Worker-35: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/projectlombok/lombok/1.18.28/lombok-1.18.28-sources.jar
+2024-10-10 12:19:10,808 [Worker-35: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.projectlombok:lombok:1.18.28
+2024-10-10 12:19:10,980 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:19:10,981 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-10 12:19:10,985 [Worker-38: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:19:10,986 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-10 12:29:46,862 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:29:46,863 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-10 12:29:46,866 [Worker-41: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:29:46,867 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-10 12:34:30,738 [Worker-46: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SmartBuyCR.R360.Automation:SmartBuyCR.Playwright.Automation:0.0.1-SNAPSHOT @ /home/venkaiahk/Desktop/SmartBuyCR.R360.Automation/pom.xml.
+2024-10-10 12:34:30,980 [Worker-46: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:34:30,983 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-10 12:34:30,988 [Worker-46: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:34:30,989 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-10 12:35:01,568 [Worker-43: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:35:01,568 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/main/resources to target/classes
+2024-10-10 12:35:01,570 [Worker-43: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-10 12:35:01,571 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src/test/resources to target/test-classes
+2024-10-11 10:10:57,164 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-11 10:14:28,523 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-11 11:36:35,718 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-11 15:50:12,480 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-11 16:32:56,483 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-14 10:31:38,011 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-10-18 10:39:57,262 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-10-18 10:40:23,755 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: SmartBuyCR.R360.Automation:SmartBuyCR.Playwright.Automation:0.0.1-SNAPSHOT @ /home/venkaiahk/Documents/SmartBuyCR.R360.Automation/pom.xml.
+2024-10-18 10:40:24,391 [Worker-20: Updating workspace] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating SampleTest.Infinia_FlightRoundTripBooking from maven configuration
+2024-10-18 10:40:24,671 [Worker-20: Updating workspace] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating SampleTest.TestLaunchUrl from maven configuration
+2024-10-18 10:40:24,683 [Worker-20: Updating workspace] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating SampleTest from maven configuration
+2024-10-18 10:40:25,320 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartBuyCR.Playwright.Automation/src/main/java
+2024-10-18 10:40:25,322 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartBuyCR.Playwright.Automation/src/main/resources
+2024-10-18 10:40:25,323 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SmartBuyCR.Playwright.Automation/src/test/java
+2024-10-18 10:40:25,323 [Worker-13: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SmartBuyCR.Playwright.Automation/src/test/resources
+2024-10-18 10:40:25,363 [Worker-13: Importing Maven projects] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: SampleTest.Infinia_FlightRoundTripBooking
+2024-10-18 10:40:25,363 [Worker-13: Importing Maven projects] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating SampleTest.Infinia_FlightRoundTripBooking from maven configuration
+2024-10-18 10:40:25,370 [Worker-13: Importing Maven projects] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: SampleTest.TestLaunchUrl
+2024-10-18 10:40:25,370 [Worker-13: Importing Maven projects] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating SampleTest.TestLaunchUrl from maven configuration
+2024-10-18 10:40:25,371 [Worker-13: Importing Maven projects] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: SampleTest
+2024-10-18 10:40:25,371 [Worker-13: Importing Maven projects] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating SampleTest from maven configuration
+2024-10-18 10:40:25,408 [Worker-13: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2024-10-18 10:40:30,391 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-18 10:40:30,395 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-10-18 10:40:30,407 [Worker-14: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-10-18 10:40:30,408 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/test/resources to target/test-classes
