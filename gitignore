@@ -1,0 +1,49 @@
+# Maven target directory
+/target/
+
+# Playwright binaries and traces
+/playwright/.local-browsers/
+/playwright/.playwright-debug/
+/playwright/screenshots/
+/playwright/traces/
+
+# TestNG Reports
+/test-output/
+
+# Logs
+*.log
+*.log.*
+
+# Eclipse specific files
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+
+# VS Code specific files
+.vscode/
+
+# Java build files
+*.class
+
+# Maven specific files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Ignore the Maven wrapper jar files
+.mvn/wrapper/maven-wrapper.jar
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# General files to ignore
+*.tmp
+*.swp
+*.swo
