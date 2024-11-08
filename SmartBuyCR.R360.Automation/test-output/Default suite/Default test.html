@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Oct 25 16:40:47 IST 2024</td>
+<td>Started on:</td><td>Fri Nov 08 10:15:19 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>60 seconds (60656 ms)</td>
+<tr><td>Total time:</td><td>66 seconds (66266 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -79,25 +79,17 @@ function toggleAllBoxes() {
 <td><div><pre>com.microsoft.playwright.TimeoutError: Error {
   message=&apos;Timeout 30000ms exceeded.
 =========================== logs ===========================
-waiting for locator(&quot;#canvas_flights_0_O_0&quot;)
-  locator resolved to &lt;canvas width=&quot;350&quot; height=&quot;1650&quot; _ngcontent-dxc-c266=&quot;&quot;…&gt;&lt;/canvas&gt;
-attempting click action
-  waiting for element to be visible, enabled and stable
-    element is not visible - waiting...
+waiting for getByLabel(&quot;Friday, 08 November,&quot;).getByText(&quot;08&quot;)
 ============================================================
   name=&apos;TimeoutError
   stack=&apos;TimeoutError: Timeout 30000ms exceeded.
 =========================== logs ===========================
-waiting for locator(&quot;#canvas_flights_0_O_0&quot;)
-  locator resolved to &lt;canvas width=&quot;350&quot; height=&quot;1650&quot; _ngcontent-dxc-c266=&quot;&quot;…&gt;&lt;/canvas&gt;
-attempting click action
-  waiting for element to be visible, enabled and stable
-    element is not visible - waiting...
+waiting for getByLabel(&quot;Friday, 08 November,&quot;).getByText(&quot;08&quot;)
 ============================================================
-    at ProgressController.run (/tmp/playwright-java-3629311386252072475/package/lib/server/progress.js:88:26)
-    at Frame.click (/tmp/playwright-java-3629311386252072475/package/lib/server/frames.js:994:23)
-    at FrameDispatcher.click (/tmp/playwright-java-3629311386252072475/package/lib/server/dispatchers/frameDispatcher.js:154:30)
-    at DispatcherConnection.dispatch (/tmp/playwright-java-3629311386252072475/package/lib/server/dispatchers/dispatcher.js:313:46)
+    at ProgressController.run (/tmp/playwright-java-3352699115265898406/package/lib/server/progress.js:88:26)
+    at Frame.click (/tmp/playwright-java-3352699115265898406/package/lib/server/frames.js:994:23)
+    at FrameDispatcher.click (/tmp/playwright-java-3352699115265898406/package/lib/server/dispatchers/frameDispatcher.js:154:30)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-3352699115265898406/package/lib/server/dispatchers/dispatcher.js:313:46)
 }
 	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
 	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:111)
@@ -111,7 +103,8 @@ attempting click action
 	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
 	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
 	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:140)
-	at SmartBuyCR.Pages.InfiniaPage.RoundTripFlightBooking(InfiniaPage.java:198)
+	at com.microsoft.playwright.Locator.click(Locator.java:2341)
+	at SmartBuyCR.Pages.InfiniaPage.InfiniaRoundTripCalendarSameDay(InfiniaPage.java:55)
 	at SmartBuyCR.Tests.SampleTest.Infinia_FlightRoundTripBooking(SampleTest.java:21)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -142,53 +135,37 @@ attempting click action
 Caused by: com.microsoft.playwright.TimeoutError: Error {
   message=&apos;Timeout 30000ms exceeded.
 =========================== logs ===========================
-waiting for locator(&quot;#canvas_flights_0_O_0&quot;)
-  locator resolved to &lt;canvas width=&quot;350&quot; height=&quot;1650&quot; _ngcontent-dxc-c266=&quot;&quot;…&gt;&lt;/canvas&gt;
-attempting click action
-  waiting for element to be visible, enabled and stable
-    element is not visible - waiting...
+waiting for getByLabel(&quot;Friday, 08 November,&quot;).getByText(&quot;08&quot;)
 ============================================================
   name=&apos;TimeoutError
   stack=&apos;TimeoutError: Timeout 30000ms exceeded.
 =========================== logs ===========================
-waiting for locator(&quot;#canvas_flights_0_O_0&quot;)
-  locator resolved to &lt;canvas width=&quot;350&quot; height=&quot;1650&quot; _ngcontent-dxc-c266=&quot;&quot;…&gt;&lt;/canvas&gt;
-attempting click action
-  waiting for element to be visible, enabled and stable
-    element is not visible - waiting...
+waiting for getByLabel(&quot;Friday, 08 November,&quot;).getByText(&quot;08&quot;)
 ============================================================
-    at ProgressController.run (/tmp/playwright-java-3629311386252072475/package/lib/server/progress.js:88:26)
-    at Frame.click (/tmp/playwright-java-3629311386252072475/package/lib/server/frames.js:994:23)
-    at FrameDispatcher.click (/tmp/playwright-java-3629311386252072475/package/lib/server/dispatchers/frameDispatcher.js:154:30)
-    at DispatcherConnection.dispatch (/tmp/playwright-java-3629311386252072475/package/lib/server/dispatchers/dispatcher.js:313:46)
+    at ProgressController.run (/tmp/playwright-java-3352699115265898406/package/lib/server/progress.js:88:26)
+    at Frame.click (/tmp/playwright-java-3352699115265898406/package/lib/server/frames.js:994:23)
+    at FrameDispatcher.click (/tmp/playwright-java-3352699115265898406/package/lib/server/dispatchers/frameDispatcher.js:154:30)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-3352699115265898406/package/lib/server/dispatchers/dispatcher.js:313:46)
 }
 	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:224)
 	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:206)
 	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:109)
-	... 38 more
-</pre></div><a href='#' onClick='toggleBox("stack-trace1924227192", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1924227192'><pre>com.microsoft.playwright.TimeoutError: Error {
+	... 39 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace1004430079", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1004430079'><pre>com.microsoft.playwright.TimeoutError: Error {
   message=&apos;Timeout 30000ms exceeded.
 =========================== logs ===========================
-waiting for locator(&quot;#canvas_flights_0_O_0&quot;)
-  locator resolved to &lt;canvas width=&quot;350&quot; height=&quot;1650&quot; _ngcontent-dxc-c266=&quot;&quot;…&gt;&lt;/canvas&gt;
-attempting click action
-  waiting for element to be visible, enabled and stable
-    element is not visible - waiting...
+waiting for getByLabel(&quot;Friday, 08 November,&quot;).getByText(&quot;08&quot;)
 ============================================================
   name=&apos;TimeoutError
   stack=&apos;TimeoutError: Timeout 30000ms exceeded.
 =========================== logs ===========================
-waiting for locator(&quot;#canvas_flights_0_O_0&quot;)
-  locator resolved to &lt;canvas width=&quot;350&quot; height=&quot;1650&quot; _ngcontent-dxc-c266=&quot;&quot;…&gt;&lt;/canvas&gt;
-attempting click action
-  waiting for element to be visible, enabled and stable
-    element is not visible - waiting...
+waiting for getByLabel(&quot;Friday, 08 November,&quot;).getByText(&quot;08&quot;)
 ============================================================
-    at ProgressController.run (/tmp/playwright-java-3629311386252072475/package/lib/server/progress.js:88:26)
-    at Frame.click (/tmp/playwright-java-3629311386252072475/package/lib/server/frames.js:994:23)
-    at FrameDispatcher.click (/tmp/playwright-java-3629311386252072475/package/lib/server/dispatchers/frameDispatcher.js:154:30)
-    at DispatcherConnection.dispatch (/tmp/playwright-java-3629311386252072475/package/lib/server/dispatchers/dispatcher.js:313:46)
+    at ProgressController.run (/tmp/playwright-java-3352699115265898406/package/lib/server/progress.js:88:26)
+    at Frame.click (/tmp/playwright-java-3352699115265898406/package/lib/server/frames.js:994:23)
+    at FrameDispatcher.click (/tmp/playwright-java-3352699115265898406/package/lib/server/dispatchers/frameDispatcher.js:154:30)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-3352699115265898406/package/lib/server/dispatchers/dispatcher.js:313:46)
 }
 	at com.microsoft.playwright.impl.WaitableResult.get(WaitableResult.java:52)
 	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:111)
@@ -202,7 +179,8 @@ attempting click action
 	at com.microsoft.playwright.impl.LoggingSupport.withLogging(LoggingSupport.java:35)
 	at com.microsoft.playwright.impl.FrameImpl.click(FrameImpl.java:243)
 	at com.microsoft.playwright.impl.LocatorImpl.click(LocatorImpl.java:140)
-	at SmartBuyCR.Pages.InfiniaPage.RoundTripFlightBooking(InfiniaPage.java:198)
+	at com.microsoft.playwright.Locator.click(Locator.java:2341)
+	at SmartBuyCR.Pages.InfiniaPage.InfiniaRoundTripCalendarSameDay(InfiniaPage.java:55)
 	at SmartBuyCR.Tests.SampleTest.Infinia_FlightRoundTripBooking(SampleTest.java:21)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -233,32 +211,24 @@ attempting click action
 Caused by: com.microsoft.playwright.TimeoutError: Error {
   message=&apos;Timeout 30000ms exceeded.
 =========================== logs ===========================
-waiting for locator(&quot;#canvas_flights_0_O_0&quot;)
-  locator resolved to &lt;canvas width=&quot;350&quot; height=&quot;1650&quot; _ngcontent-dxc-c266=&quot;&quot;…&gt;&lt;/canvas&gt;
-attempting click action
-  waiting for element to be visible, enabled and stable
-    element is not visible - waiting...
+waiting for getByLabel(&quot;Friday, 08 November,&quot;).getByText(&quot;08&quot;)
 ============================================================
   name=&apos;TimeoutError
   stack=&apos;TimeoutError: Timeout 30000ms exceeded.
 =========================== logs ===========================
-waiting for locator(&quot;#canvas_flights_0_O_0&quot;)
-  locator resolved to &lt;canvas width=&quot;350&quot; height=&quot;1650&quot; _ngcontent-dxc-c266=&quot;&quot;…&gt;&lt;/canvas&gt;
-attempting click action
-  waiting for element to be visible, enabled and stable
-    element is not visible - waiting...
+waiting for getByLabel(&quot;Friday, 08 November,&quot;).getByText(&quot;08&quot;)
 ============================================================
-    at ProgressController.run (/tmp/playwright-java-3629311386252072475/package/lib/server/progress.js:88:26)
-    at Frame.click (/tmp/playwright-java-3629311386252072475/package/lib/server/frames.js:994:23)
-    at FrameDispatcher.click (/tmp/playwright-java-3629311386252072475/package/lib/server/dispatchers/frameDispatcher.js:154:30)
-    at DispatcherConnection.dispatch (/tmp/playwright-java-3629311386252072475/package/lib/server/dispatchers/dispatcher.js:313:46)
+    at ProgressController.run (/tmp/playwright-java-3352699115265898406/package/lib/server/progress.js:88:26)
+    at Frame.click (/tmp/playwright-java-3352699115265898406/package/lib/server/frames.js:994:23)
+    at FrameDispatcher.click (/tmp/playwright-java-3352699115265898406/package/lib/server/dispatchers/frameDispatcher.js:154:30)
+    at DispatcherConnection.dispatch (/tmp/playwright-java-3352699115265898406/package/lib/server/dispatchers/dispatcher.js:313:46)
 }
 	at com.microsoft.playwright.impl.Connection.dispatch(Connection.java:224)
 	at com.microsoft.playwright.impl.Connection.processOneMessage(Connection.java:206)
 	at com.microsoft.playwright.impl.ChannelOwner.runUntil(ChannelOwner.java:109)
-	... 38 more
+	... 39 more
 </pre></div></td>
-<td>57</td>
+<td>62</td>
 <td>SmartBuyCR.Tests.SampleTest@3fb1549b</td></tr>
 </table><p>
 </body>
